@@ -72,21 +72,21 @@ How did the name came about?
  - `STARDOG ON/OFF` Use this to turn on/off the Stardog TripleStore
 
 >### Creation Mode
-	> + `RESEARCH QUESTION` Create and manage research questions
-	> + `RESOURCE CLUSTER` Create and manage resource clusters meant for grouping resources based on a certain criteria before creating a linkset (under development)
-	> + `LINNKSET FROM CLUSTER` Create and manage linksets from resource clusters (under development)
-	> + `LINKSET` Create and manage linksets
-	> + `LENS` Create and manage lenses as combination of already created linksets
-	> + `VIEW` Create and manage views over the datasets based on the created alignments (linksets/lenses)
-	> + `LINK CLUSTER` Create clusters to analyse the resulting alignments (linksets/lenses). Also allow for inspecting datasets properties and values and to enrich dataset with geodata from a given endpoint (under development)
-	> + `IMPORT` Import (i) csv-files into RDF datasets, (ii) external linksets (created by another tool) and (iii) research questions
+> + `RESEARCH QUESTION` Create and manage research questions
+> + `RESOURCE CLUSTER` Create and manage resource clusters meant for grouping resources based on a certain criteria before creating a linkset (under development)
+> + `LINNKSET FROM CLUSTER` Create and manage linksets from resource clusters (under development)
+> + `LINKSET` Create and manage linksets
+> + `LENS` Create and manage lenses as combination of already created linksets
+> + `VIEW` Create and manage views over the datasets based on the created alignments (linksets/lenses)
+> + `LINK CLUSTER` Create clusters to analyse the resulting alignments (linksets/lenses). Also allow for inspecting datasets properties and values and to enrich dataset with geodata from a given endpoint (under development)
+> + `IMPORT` Import (i) csv-files into RDF datasets, (ii) external linksets (created by another tool) and (iii) research questions
 
 > ### Admin Mode
-	> + `TRIPLESTORE` Offers some of the *stardog* admin options, as well as pre-defined queries
-	> + `RESEARCH QUESTIONS` Delete a selected research question
-	> + `DEL LINKSETS`  Delete *all* linksets from the database
-	> + `DEL LENSES` Delete *all* lenses from the database
-	> + `DEL VIEWS` Delete *all* views from the database
+> + `TRIPLESTORE` Offers some of the *stardog* admin options, as well as pre-defined queries
+> + `RESEARCH QUESTIONS` Delete a selected research question
+> + `DEL LINKSETS`  Delete *all* linksets from the database
+> + `DEL LENSES` Delete *all* lenses from the database
+> + `DEL VIEWS` Delete *all* views from the database
 	
 ## The `RESEARCH QUESTION` main menu
 Using the tool starts with creating a research question  as all alignment activities are documented in a research question. 
