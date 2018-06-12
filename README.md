@@ -1,3 +1,4 @@
+
 # RISIS-2018-course
 
 # LEIDEN  RANKING versus RISIS PREDICTIONS
@@ -25,7 +26,10 @@ The goal here is to identify **potential datasets** that can be employed for suc
 > > As of May 2018, the **G**lobal **R**esearch **I**dentifier **D**atabase describes 87868 organisations across 217 countries using 14220 relationships.  Only 17 countries (United States, United Kingdom, Japan, Germany, France, Canada, Czechia, China, India, Norway, Italy, Spain, Brazil, Russia, Switzerland, Sweden and Australia) within Grid host a thousand or more organisations. This accounts for 77% of the total. All organisations within Grid are assigned an address, while 96% of them have an organisation type (company, education, healthcare, non-profit, facility, government, archive, and 'other'), and only 80% have geographic coordinates. 
  
   #### Geographical boundaries
- > As the **GADM** dataset provides geographical boundaries and both ETER and GRID are described with coordinates, the GADM dataset can be used to **enrich ETER and GRID** with GADM level 2 geographical boundary code.
+ > As the **GADM** dataset provides geographical boundaries and both ETER and GRID are described with coordinates, the GADM dataset can be used to **enrich ETER and GRID** with GADM level 2 geographical boundary code. The picture depicted below highlights the enrichment of the two datasets using GADM.
+ > 
+<img src="https://github.com/alkoudouss/RISIS-2018-course/blob/master/Images/Enriched.png?raw=true" alt="IMAGE ALT TEXT HERE" width="1050" height="600" border="20"/>
+
  > >**Dataset description**
  > >The Database of **G**lobal **ADM**inistrative Areas, provides maps and spatial data for all countries and their sub-divisions,
 
