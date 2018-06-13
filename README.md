@@ -62,12 +62,22 @@ The implemented integration data model depicted below describes a Lenticular Len
 <img src="https://github.com/alkoudouss/RISIS-2018-course/blob/master/Images/IntegrationModel-2.png?raw=true" alt="IMAGE ALT TEXT HERE" width="1050" height="600" border="20"/>
 
 ## Hands-on sessions
-1. Introduction to the Lenticular Lens Tool
-2. Converting ETER from **csv** to **RDF** 
-3. Load all datasets (either with the **LL tool** or the **Stardog** triple store)
-4. Load the provided research question 
-5. Using the Lenticukar Lens Tool
+1. Managing Stardog memory
+2. Introduction to the Lenticular Lens Tool
+3. Converting ETER from **csv** to **RDF** 
+4. Load all datasets (either with the **LL tool** or the **Stardog** triple store)
+5. Load the provided [research question](https://github.com/alkoudouss/RISIS-2018-course/blob/master/ResearchQuestion/idea_2fedae_NL.zip) 
+6. Using the Lenticukar Lens Tool
 
+# Managing Stardog Memory
+```
+REM # Default Stardog client and server arguments, providing the memory settings.
+IF NOT DEFINED STARDOG_JAVA_ARGS (
+    SET STARDOG_JAVA_ARGS=-Xmx2g
+    IF NOT DEFINED STARDOG_SERVER_JAVA_ARGS  (
+        SET STARDOG_SERVER_JAVA_ARGS=-Xmx2g -Xms2g -XX:MaxDirectMemorySize=2g
+    )
+```
 # Using the LL
 How did the name came about?
 ## Main menu
